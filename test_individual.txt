@@ -1,0 +1,5 @@
+python3 test_individual.py -p /PATH TO .pth WEIGHTS FILES/ -e full -m vgg16
+
+-p: the path to the folder that holds the weights
+-e: epochs, either 'full' or 'five'
+-m: the model being tested, 'vgg16', 'resnet18' or 'alexnet'

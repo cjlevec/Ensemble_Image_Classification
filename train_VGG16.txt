@@ -1,0 +1,7 @@
+python3 train_VGG16.py -e 30 -b 32 -p 1
+
+-e is number of epochs (int)
+-b is batch size (int)
+-p decides whether or not to used pre-trained weights as a starting point (bool)
+
+# 1 corresponds to the initial weights being those of AlexNet when trained on ImageNet

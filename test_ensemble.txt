@@ -1,0 +1,5 @@
+python3 test_ensemble.py -p /PATH TO .pth WEIGHTS FILE/ -e full -m max
+
+-p: the path to the folder that holds the weights
+-e: epochs, either 'full' or 'five'
+-m: method of performing ensemble, 'max', 'maj' or 'avg'
